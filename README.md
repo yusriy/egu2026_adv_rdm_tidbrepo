@@ -10,6 +10,13 @@ Flux measurements play a critical role in informing climate mitigation, ecosyste
 
 How to cite: Yusup, Y., Rauber, A., Jamshidi, E. J., Lalung, J., and Weise, M.: Advanced Research Data Management to Enhance Reuse and Societal Impact of Flux Data, EGU General Assembly 2026, Vienna, Austria, 3–8 May 2026, EGU26-11934, https://doi.org/10.5194/egusphere-egu26-11934, 2026.
 
+## Setup
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements_full.txt
+```
+
 ## Overview
 This repository demonstrates a **practical research data management (RDM) workflow** for eddy covariance (EC) data using:
 
